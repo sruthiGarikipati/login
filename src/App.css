@@ -1,5 +1,8 @@
+
+
 .App {
   text-align: center;
+  color: #fff; /* Ensure text color is white for the App component */
 }
 
 .App-logo {
@@ -21,7 +24,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +37,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #282c34; /* Sets a dark background for the whole app */
+  color: #fff; /* Sets the default text color to white */
 }
